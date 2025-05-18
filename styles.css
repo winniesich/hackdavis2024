@@ -1,0 +1,87 @@
+:root {
+    --primary-cobalt: #0071C2;
+    --primary-coral: #D7674E;
+    --secondary-slate: #F9F7F3;
+    --secondary-coral: #F48C7E;
+    --btPrimary-hover: #0060A5;
+}
+
+.mt-6 {
+    margin-top: 6rem; /* 96px */
+}
+.mt-12 {
+    margin-top: 12rem; /* 128px */
+}
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
+.navbar {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
+
+/* Button */
+
+.btn-primary {
+    background-color: var(--primary-cobalt) !important;
+    border-color: var(--primary-cobalt) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--btPrimary-hover) !important;
+    border-color: var(--btPrimary-hover) !important;
+}
+
+/* hero section */
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center; 
+    background-image: url(images/dcmh-hero.jpg);
+}
+
+.hero-text {
+    color: white;
+}
+
+/* Main */
+
+.bg-slate {
+    background-color: var(--secondary-slate);
+}
+.underline-decoration {
+    width: 50px;
+    height: 4px;
+    background-color: var(--primary-cobalt);
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.data {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: .25rem !important;
+    color: var(--primary-cobalt);
+}
+
+.data-desc {
+    font-weight: bold;
+    color: var(--primary-cobalt);
+}
+
+footer ul li a {
+    color: #000;
+}
