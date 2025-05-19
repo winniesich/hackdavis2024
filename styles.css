@@ -73,6 +73,10 @@
 
 /* Main */
 
+.bg-cobalt {
+    background-color: var(--primary-cobalt);
+}
+
 .bg-slate {
     background-color: var(--secondary-slate);
 }
@@ -88,12 +92,12 @@
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: .25rem !important;
-    color: var(--primary-cobalt);
+    color: #fff;
 }
 
 .data-desc {
     font-weight: bold;
-    color: var(--primary-cobalt);
+    color: #fff;
 }
 
 footer ul li a {
